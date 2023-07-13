@@ -23,8 +23,7 @@ The contract has three public variables: tName, tAbrv, and totSupply.
 The contract also has a mapping variable called balances.
 The contract has two functions: mint() and burn().
 The mint() function mints new tokens and the burn() function burns tokens.
-
-    */
+  */
 
       contract MyToken {
     // public variables here
