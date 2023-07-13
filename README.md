@@ -24,7 +24,8 @@ The contract also has a mapping variable called balances.
 The contract has two functions: mint() and burn().
 The mint() function mints new tokens and the burn() function burns tokens.
 
-```javascript
+*/
+
 contract MyToken {
 
     // public variables here
@@ -50,8 +51,6 @@ function burn (address _address, uint _value) public{
     }
 }
 }
-
-```
 
 To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.4" (or another compatible version), and then click on the "Compile myToken.sol" button.
 
