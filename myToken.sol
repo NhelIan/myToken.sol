@@ -40,3 +40,4 @@ function burn (address _address, uint _value) public{
     }
 }
 }
+*/
