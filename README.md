@@ -24,10 +24,9 @@ The contract also has a mapping variable called balances.
 The contract has two functions: mint() and burn().
 The mint() function mints new tokens and the burn() function burns tokens.
 
-*/
+    */
 
-contract MyToken {
-
+      contract MyToken {
     // public variables here
     string public tokenName = "CABAYAO";
     string public tokenAbbry = "CBO";
@@ -42,15 +41,14 @@ contract MyToken {
         balances[_address]+= _value;
     
     }
-
-    // burn function
-function burn (address _address, uint _value) public{
+     // burn function
+     function burn (address _address, uint _value) public{
     if (balances[_address] >= _value) {
         totalSupply -= _value;
         balances[_address]-= _value;
     }
-}
-}
+     }
+    }
 
 To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.4" (or another compatible version), and then click on the "Compile myToken.sol" button.
 
