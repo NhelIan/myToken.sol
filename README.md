@@ -25,6 +25,8 @@ The contract has two functions: mint() and burn().
 The mint() function mints new tokens and the burn() function burns tokens.
   */
 
+     // SPDX-License-Identifier: MIT
+    pragma solidity 0.8.18; 
       contract MyToken {
     // public variables here
     string public tokenName = "CABAYAO";
